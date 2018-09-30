@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d("logs", "onDestroy has executed..");
+        Log.d("logs", "onDestroy has executed.");
     }
 
     public void display(View v) {
