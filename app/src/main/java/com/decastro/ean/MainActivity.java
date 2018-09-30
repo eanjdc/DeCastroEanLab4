@@ -19,25 +19,38 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d("logs", "onCreate has executed..");
+        Log.d("logs", "onStart has executed..");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d("logs", "onCreate has executed..");
+        Log.d("logs", "onResume has executed..");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d("logs", "onCreate has executed..");
+        Log.d("logs", "onStop has executed..");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d("logs", "onCreate has executed..");
+        Log.d("logs", "onPause has executed..");
+
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.d("logs", "onRestart has executed..");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d("logs", "onDestroy has executed..");
     }
 
     public void display(View v) {
